@@ -12,7 +12,8 @@
     "packages/sdk",
     "packages/sdk-bridge",
     "packages/sdk-govern",
-    "packages/indexer"
+    "packages/indexer",
+    "packages/keymaster"
   ],
   "scripts": {
     "bootstrap": "yarn workspaces foreach -Apv --exclude @nomad-xyz/local-environment --exclude @nomad-xyz/monitor run bootstrap",
